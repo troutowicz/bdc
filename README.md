@@ -1,5 +1,7 @@
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://troutowicz.mit-license.org)
+
 # bdc
-> __B__ehavior __D__riven __C__omposition
+> **B**ehavior **D**riven **C**omposition
 
 BDC is a pattern that can be used when creating applications with [React](https://github.com/facebook/react). The idea is to keep components self-sufficient while being as minimal as possible. Components can obtain additional behavior via mixins.
 
