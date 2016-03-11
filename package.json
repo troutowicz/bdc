@@ -1,15 +1,29 @@
 {
-  "name": "bdc-example",
+  "name": "bdc",
   "version": "0.1.0",
-  "description": "BDC example",
+  "description": "Behavior Driven Composition",
   "main": "index.js",
   "scripts": {
     "build": "browserify -s bundle index.js -t [ babelify --presets [ es2015 react ] ] > public/bundle.js",
     "start": "babel-node --presets es2015 server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troutowicz/bdc.git"
+  },
+  "keywords": [
+    "bdc",
+    "stamp",
+    "react",
+    "mixins"
+  ],
   "author": "Tim Routowicz <troutowicz@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troutowicz/bdc/issues"
+  },
+  "homepage": "https://github.com/troutowicz/bdc#readme",
   "dependencies": {
     "express": "^4.13.4",
     "react": "^0.14.7",
